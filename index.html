@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Restaurant - Reserve a Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Reserve a Table at Little Lemon</h1>
+    <form id="reservation-form">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <label for="diners">Number of Diners:</label>
+        <input type="number" id="diners" name="diners" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="contact">Contact Information:</label>
+        <input type="text" id="contact" name="contact" required>
+        <button type="submit">Reserve</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
